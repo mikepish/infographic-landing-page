@@ -1,0 +1,191 @@
+body,
+ul,
+li,
+p,
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: tahoma;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.color-1 {
+  color: #b87fa8;
+}
+
+.color-2 {
+  color: #dc027b;
+}
+
+.color-3 {
+  color: #db9802;
+}
+
+.color-4 {
+  color: #a6b569;
+}
+
+.color-5 {
+  color: #119887;
+}
+
+.color-6 {
+  color: #1768ff;
+}
+
+.color-7 {
+  color: #18a1fe;
+}
+
+.color-8 {
+  color: #a74e8e;
+}
+
+.infographic-box p {
+  color: #acacac;
+  font-size: 14px;
+}
+
+.infographic-box h5 {
+  font-size: 26px;
+}
+
+.text-style {
+  position: absolute;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}
+
+.steps-ul li span {
+  float: left;
+  width: 100%;
+  font-size: 40px;
+  line-height: 25px;
+}
+
+.container-inner-img {
+  width: 482px;
+  margin: 126px auto;
+  position: relative;
+}
+
+.infographic-box {
+  position: absolute;
+  width: 245px;
+}
+
+.infographic-box.info-pos-1 {
+  top: -150px;
+  left: -136px;
+}
+
+.infographic-box.info-pos-2 {
+  top: -150px;
+  left: 425px;
+}
+
+.infographic-box.info-pos-3 {
+  top: 60px;
+  left: 518px;
+  width: 246px;
+}
+
+.infographic-box.info-pos-4 {
+  top: 270px;
+  left: 517px;
+}
+
+.infographic-box.info-pos-5 {
+  top: 465px;
+  left: 327px;
+}
+
+.infographic-box.info-pos-6 {
+  top: 465px;
+  left: -50px;
+}
+
+.infographic-box.info-pos-7 {
+  top: 257px;
+  left: -235px;
+}
+
+.infographic-box.info-pos-8 {
+  top: 65px;
+  left: -260px;
+}
+
+li.text-style.pos-1 {
+  top: 31px;
+  left: 154px;
+}
+
+li.text-style.pos-2 {
+  top: 31px;
+  left: 276px;
+}
+
+li.text-style.pos-3 {
+  top: 138px;
+  left: 393px;
+}
+
+li.text-style.pos-4 {
+  top: 268px;
+  left: 393px;
+}
+
+li.text-style.pos-5 {
+  top: 385px;
+  left: 296px;
+}
+li.text-style.pos-6 {
+  top: 384px;
+  left: 143px;
+}
+li.text-style.pos-7 {
+  top: 282px;
+  left: 47px;
+}
+li.text-style.pos-8 {
+  top: 144px;
+  left: 40px;
+}
+
+@media (max-width: 1085px) {
+  .main-container {
+    width: 90vh;
+  }
+  .container-inner-img {
+    width: 60vh;
+    margin: 126px auto;
+  }
+  .infographic-box {
+    width: 70vh;
+  }
+  .infographic-box p {
+    visibility: hidden;
+  }
+
+  .infographic-box h5 {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 585px) {
+  .main-container {
+    width: 100%;
+  }
+}
